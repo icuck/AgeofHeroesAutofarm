@@ -11,6 +11,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAut
 Prototype is often where new features are added first, but aren't fully tested, use at your own risk.
 
 ## ChangeLog:
+**May 17, 2020, 5:30 PM**
+1. Fixed bugs where script doesn't show
+2. Compacted script
+3. Fully fixed the script
+
 **May 17, 2020, 4:25 PM**
 1. Bypassed an attempted patch
 2. Fixed a bug where script breaks
