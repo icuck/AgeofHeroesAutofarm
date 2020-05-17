@@ -1,9 +1,14 @@
 # Age of Heroes Autofarm
-code:
+Script:
 ```lua
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/main.lua"), true))()
 ```
 
+Prototype (Use at your own risk):
+```lua
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/main.lua"), true))()
+```
+Prototype is often where new features are added first, but aren't fully tested, use at your own risk.
 
 ## ChangeLog:
 **May 17, 2020, 12:20 PM**
