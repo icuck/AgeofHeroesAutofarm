@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAut
 
 Prototype (Use at your own risk):
 ```lua
-loadstring(game:HttpGet(("https://github.com/icuck/AgeofHeroesAutofarm/raw/master/add-on.lua"), true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/add-on.lua"), true))()
 ```
 Prototype is often where new features are added first, but aren't fully tested, use at your own risk.
 
