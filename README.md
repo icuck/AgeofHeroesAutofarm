@@ -1,4 +1,4 @@
-# AgeofHeroesAutofarm
+# Age of Heroes Autofarm
 code:
 ```lua
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/main.lua"), true))()
@@ -6,6 +6,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAut
 
 
 ## ChangeLog:
+**May 17, 2020, 12:20 PM**
+1. Addded a ***GUI!*** made toggle easier and less broken.
+2. Cleaned up script, less lag and unnecessary fluff.
+3. Variables have been tweeked a little bit.
+
 **May 16, 2020, 10:30 PM**
 1. Added loading
 2. Notifications integrated
