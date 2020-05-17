@@ -5,7 +5,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAut
 ```
 
 
-##ChangeLog:
+## ChangeLog:
 **May 16, 2020, 10:30 PM**
 1. Added loading
 2. Notifications integrated
