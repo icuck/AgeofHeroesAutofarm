@@ -11,6 +11,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAut
 Prototype is often where new features are added first, but aren't fully tested, use at your own risk.
 
 ## ChangeLog:
+**May 17, 2020, 4:25 PM**
+1. Bypassed an attempted patch
+2. Fixed a bug where script breaks
+3. Split file to smaller margins to cope with lag and massive size
+4. Reworked loading
+
 **May 17, 2020, 1:30 PM**
 1. Added a version number, yesyes, much cool
 2. Started sorting different aspects into loadstrings
