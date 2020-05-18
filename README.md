@@ -6,11 +6,18 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAut
 
 Prototype (Use at your own risk):
 ```lua
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/add-on.lua"), true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/proto.lua"), true))()
 ```
 Prototype is often where new features are added first, but aren't fully tested, use at your own risk.
 
 ## ChangeLog:
+**May 18, 2020, 6:45 PM**
+1. Made an intro, and changelog
+2. Made a HOT gui, almost done with the whole script, yesyes
+3. Added NPC farm
+4. Fixed minor bugs
+5. Made proto.lua
+
 **May 17, 2020, 5:30 PM**
 1. Fixed bugs where script doesn't show
 2. Compacted script
