@@ -43,3 +43,8 @@ for i,v in next, game.Players:GetPlayers() do
     check(v)
 end
 -- staff detections ends here
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Script Loaded!";
+        Text = "Detecting staff.";
+	})
