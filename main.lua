@@ -1,4 +1,3 @@
--- we hit 35 likes, and I'm a man of my word, congrats. You get to see my messy as hell code:
 
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/eKwyeQa0", true))()
 npcFarm = "OFF"
@@ -23,7 +22,7 @@ runtoggle = "OFF"
 -----------------------------------------------------------------
 ]]
 
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/loadstrings/intro.lua"), true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/loadstrings/intro1.lua"), true))()
 
 --end
 
@@ -137,23 +136,21 @@ game:GetService('RunService').Heartbeat:connect(function()
 end
 
 
-  if npcFarm == "ON" and farming == false then
-    farming = true
-    wait(0.5)
-    enemy = game.Workspace:FindFirstChild(npc)
-    repeat
-      wait(0.1)
-      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = enemy.HumanoidRootPart.CFrame + enemy.HumanoidRootPart.CFrame.lookVector * distance
-    until enemy.Humanoid.Health <= 5 or npcFarm == "OFF" or game.Players.LocalPlayer.Character.Humanoid.Health <= hplimit
-    farming = false
-    print("NPC MURDERED")
-  end
-  tpsafe()
+    if npcFarm == "ON" then
+        wait(0.1)
+        enemy = game.Workspace:FindFirstChild(npc)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = enemy.HumanoidRootPart.CFrame + enemy.HumanoidRootPart.CFrame.lookVector * distance
+        if enemy.Humanoid.Health <= 0 then
+          enemy:Destroy()
+        else
+          local A_1,A_2,A_3 = 0,0.1,1
+          game:GetService("ReplicatedStorage").Events.Punch:FireServer(A_1,A_2,A_3)
+        end
+    end
+
+   tpsafe()
 
 
-  if runtoggle == "ON" then
-    run()
-  end
 end)
 
 --[[
@@ -201,9 +198,6 @@ end
 
 
 
-function run()
-
-end
 
 
 
@@ -225,5 +219,7 @@ end
 ]]
 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/loadstrings/OpenSourceStaffDetect.lua"), true))()
+
+
 
 
