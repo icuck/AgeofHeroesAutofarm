@@ -10,6 +10,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAut
 ```
 Prototype is often where new features are added first, but aren't fully tested, use at your own risk.
 
+Paid:
+```lua
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/icuck/AgeofHeroesAutofarm/master/v4autofarm.lua"), true))()
+```
+
+
+
+
 ## ChangeLog:
 **May 18, 2020, 6:45 PM**
 1. Made an intro, and changelog
