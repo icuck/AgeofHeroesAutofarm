@@ -5,7 +5,8 @@ local blacklist = {
   15213032,
   9960,
   48714258,
-  9754162
+  9754162,
+  1620525104
 }
 
 local check = function(plr)
