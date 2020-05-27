@@ -1,4 +1,4 @@
--- Imagine retards leaking that script, LOL. Get a life, kids.
+-- Imagine retards leaking that script, LOL. Get a life, kids. (AHEM... mfeniix#7206)
 
 -- Changed it, dm me for open-source, lmao.
 
